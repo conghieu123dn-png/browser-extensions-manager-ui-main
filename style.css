@@ -108,10 +108,7 @@ p {
   background-color: hsl(0, 0%, 93%);
   border-radius: 12px;
 }
-.letter {
-  text-align: center;
-  padding-bottom: 24px;
-}
+
 .button-header {
   display: flex;
   justify-content: space-between;
