@@ -135,6 +135,7 @@ p {
   border-radius: var(--corner-radius-full, 999px);
   background-color: #fff;
   cursor: pointer;
+  color: hsl(227, 75%, 14%);
 }
 .button-inactive {
   width: 80px;
@@ -142,6 +143,7 @@ p {
   cursor: pointer;
   border-radius: var(--corner-radius-full, 999px);
   background-color: #fff;
+  color: hsl(227, 75%, 14%);
 }
 
 .list-items {
@@ -180,6 +182,11 @@ p {
   letter-spacing: -0.2px;
   padding-bottom: 8px;
 }
+.item-description {
+  color: hsl(226, 11%, 37%);
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
 
 .button-remove {
   padding: 8px 16px;
@@ -200,13 +207,16 @@ p {
   .content-header {
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
   .list-items {
-    grid-template-rows: 1fr;
     grid-template-columns: repeat(2, 1fr);
   }
   .content-header-tittle {
     margin-bottom: 0;
+  }
+  .content-header-title {
+    margin: 0;
   }
 }
 @media screen and (min-width: 1440px) {
